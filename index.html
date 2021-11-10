@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Christophe Leprêtre - Fullstack JS developer based in France" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://startmeup.github.io/portfolio/" />
+    <meta property="og:image" content="https://startmeup.github.io/portfolio/assets/img/og-image.jpg" />
+
+    <!--==================== UNICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v3.0.6/css/line.css"
+    />
+
+    <!--==================== SWIPER CSS====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--==================== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Christophe Leprêtre - Fullstack JS developer based in France</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Christophe Leprêtre</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="uil uil-estate nav__icon"></i> Home
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i> About
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i> Skills
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#services" class="nav__link">
+                <i class="uil uil-briefcase-alt nav__icon"></i> Services
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i> Portfolio
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i> Contact
+              </a>
+            </li>
+          </ul>
+
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__btns">
+          <!-- Theme change button -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/christophelepretre/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+
+              <a
+                href="https://github.com/StartMeUp?tab=repositories"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-github-alt"></i>
+              </a>
+            </div>
+
+            <div class="home__img">
+              <svg class="home__blob" viewBox="0 0 200 187">
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+
+                  <!--====================
+                                        Insert your image in the Img folder and Change your image |
+                                        Center your image with X: horizontal, Y: vertical
+                                    ====================-->
+                  <image
+                    class="home__blob-img"
+                    x="26"
+                    y="16"
+                    href="assets/img/kris-no-bg.webp"
+                  />
+                </g>
+              </svg>
+            </div>
+
+            <div class="home__data">
+              <h1 class="home__title">Hi, I'm Christophe</h1>
+              <h3 class="home__subtitle">Fullstack JS developer</h3>
+              <p class="home__description">
+                NodeJS, ReactJS, MongoDB, Typescript, Express, ... and much more
+                !
+              </p>
+              <a href="#contact" class="button button--flex">
+                Contact Me <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">My introduction</span>
+
+        <div class="about__container container grid">
+          <img
+            src="assets/img/christophe-lepretre-600x600.jpg"
+            alt=""
+            class="about__img"
+          />
+
+          <div class="about__data">
+            <p class="about__description">
+              Web developer, with extensive knowledge and more than 15 years of
+              experience in making websites, I specialized in the Node and React
+              ecosystem towards the end of 2020 and haven't stopped exploring it
+              ever since.
+            </p>
+
+            <p class="about__description">
+              Backend or Frontend, I'm happy to take on any app project in this
+              field - although I have a soft spot for the Backend.
+            </p>
+
+            <div class="about__buttons">
+              <!--==================== Change your CV ====================-->
+              <a
+                download="CV-christophe-lepretre"
+                href="assets/pdf/CV-christophe-lepretre.pdf"
+                class="button button--flex"
+              >
+                Download CV <i class="uil uil-download-alt button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">My technical level</span>
+
+        <div class="skills__container container grid">
+          <div>
+            <!--=============== SKILLS Frontend ===============-->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-web-grid skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title">Frontend developer</h1>
+                  <span class="skills__subtitle">More than 15 years</span>
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__number">Advanced</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__advanced"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__number">Advanced</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__advanced"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__number">Advanced</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__advanced"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Tailwind</h3>
+                    <span class="skills__number">Good</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__intermediate"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Bootstrap</h3>
+                    <span class="skills__number">Good</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__intermediate"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">React</h3>
+                    <span class="skills__number">Good</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span
+                      class="skills__percentage skills__intermediate"
+                    ></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">React Native</h3>
+                    <span class="skills__number">Intermediate</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span
+                      class="skills__percentage skills__average"
+                    ></span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!--=============== SKILLS Libraries ===============-->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-java-script skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title">Libraries</h1>
+                  <span class="skills__subtitle"
+                    >Just a few that I know ...</span
+                  >
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Overmind (Redux-like)</h3>
+                    <span class="skills__number">Good</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span
+                      class="skills__percentage skills__intermediate"
+                    ></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">
+                      Zod (Joi-like schema validation)
+                    </h3>
+                    <span class="skills__number">Advanced</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__advanced"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Axios</h3>
+                    <span class="skills__number">Advanced</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__advanced"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">NextJS</h3>
+                    <span class="skills__number">Good</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span
+                      class="skills__percentage skills__intermediate"
+                    ></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Stripe</h3>
+                    <span class="skills__number">Good</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span
+                      class="skills__percentage skills__intermediate"
+                    ></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">MapBox</h3>
+                    <span class="skills__number">Intermediate</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span
+                      class="skills__percentage skills__average"
+                    ></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Cloudinary</h3>
+                    <span class="skills__number">Intermediate</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span
+                      class="skills__percentage skills__average"
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <!--=============== SKILLS 2 ===============-->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-server-network skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title">Backend developer</h1>
+                  <span class="skills__subtitle">Since 2020</span>
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Typescript</h3>
+                    <span class="skills__number">Good</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span
+                      class="skills__percentage skills__intermediate"
+                    ></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Node Js</h3>
+                    <span class="skills__number">Good</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span
+                      class="skills__percentage skills__intermediate"
+                    ></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">
+                      MongoDB Atlas, MongoDB Realm, Mongoose
+                    </h3>
+                    <span class="skills__number">Good</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span
+                      class="skills__percentage skills__intermediate"
+                    ></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Amazon SES</h3>
+                    <span class="skills__number">Intermediate</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span
+                      class="skills__percentage skills__average"
+                    ></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Express</h3>
+                    <span class="skills__number">Advanced</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__advanced"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Jest, Supertest</h3>
+                    <span class="skills__number">Good</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span
+                      class="skills__percentage skills__intermediate"
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section">
+        <h2 class="section__title">Qualification</h2>
+        <span class="section__subtitle">My personal journey</span>
+
+        <div class="qualification__container container">
+          <div class="qualification__tabs">
+            <div
+              class="qualification__button button--flex qualification__active"
+              data-target="#education"
+            >
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              Education
+            </div>
+
+            <div class="qualification__button button--flex" data-target="#work">
+              <i class="uil uil-briefcase-alt qualification__icon"></i>
+              Work
+            </div>
+          </div>
+
+          <div class="qualification__sections">
+            <!--=============== QUALIFICATION CONTENT 1 ===============-->
+            <div
+              class="qualification__content qualification__active"
+              data-content
+              id="education"
+            >
+              <!--=============== QUALIFICATION 1 ===============-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">
+                    Le Reacteur Coding Bootcamp
+                  </h3>
+                  <span class="qualification__subtitle">Online course</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    end 2020
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--=============== QUALIFICATION 2 ===============-->
+              <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">Le Wagon Coding Bootcamp</h3>
+                  <span class="qualification__subtitle">Lille - France</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    spring 2019
+                  </div>
+                </div>
+              </div>
+
+              <!--=============== QUALIFICATION 3 ===============-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Web Development</h3>
+                  <span class="qualification__subtitle">Self-taught</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    Since 2005
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--=============== QUALIFICATION 4 ===============-->
+              <div class="qualification__data">
+                <div></div>
+
+                <div class="qualification__time">
+                  <span class="qualification__rounder"></span>
+                  <!-- <span class="qualification__line"></span> -->
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">Language teacher</h3>
+                  <span class="qualification__subtitle"
+                    >Canterbury - England</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2003
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--=============== QUALIFICATION CONTENT 2 ===============-->
+            <div class="qualification__content" data-content id="work">
+              <!--=============== QUALIFICATION 1 ===============-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Coding Internship</h3>
+                  <span class="qualification__subtitle">YogaLite</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    Jan - Aug 2021
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--=============== QUALIFICATION 2 ===============-->
+              <div class="qualification__data">
+                <div></div>
+
+                <div class="qualification__time">
+                  <span class="qualification__rounder"></span>
+                  <!-- <span class="qualification__line"></span> -->
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">Web Developer</h3>
+                  <span class="qualification__subtitle">Freelance</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    since 2009
+                  </div>
+                </div>
+              </div>
+
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+        <h2 class="section__title">Services</h2>
+        <span class="section__subtitle">What i offer</span>
+
+        <div class="services__container container grid">
+          <!--=============== SERVICES 1 ===============-->
+          <div class="services__content">
+            <div>
+              <i class="uil uil-web-grid services__icon"></i>
+              <h3 class="services__title">
+                Frontend <br />
+                Development
+              </h3>
+            </div>
+            <span
+              class="
+                button button--flex button--small button--link
+                services__button
+              "
+            >
+              View More
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <h4 class="services__modal-title">
+                  Frontend <br />
+                  Developer
+                </h4>
+                <i class="uil uil-times services__modal-close"></i>
+
+                <ul class="services__modal-services grid">
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>App frontend interface with React.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>SPA or SSR with NextJS.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Vanilla HTML / CSS / Javascript Web page development.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Responsive design.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!--=============== SERVICES 2 ===============-->
+          <div class="services__content">
+            <div>
+              <i class="uil uil-server-network services__icon"></i>
+              <h3 class="services__title">
+                Backend <br />
+                Developer
+              </h3>
+            </div>
+
+            <span
+              class="
+                button button--flex button--small button--link
+                services__button
+              "
+            >
+              View More
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <h4 class="services__modal-title">
+                  Backend <br />
+                  Developer
+                </h4>
+                <i class="uil uil-times services__modal-close"></i>
+
+                <ul class="services__modal-services grid">
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Custom backend design with NodeJS + Express + MongoDB.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Custom authentification management.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Serverless Backend with MongoDB Realm.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!--=============== SERVICES 3 ===============-->
+          <div class="services__content">
+            <div>
+              <i class="uil uil-wordpress-simple services__icon"></i>
+              <h3 class="services__title">
+                WordPress <br />
+                Design
+              </h3>
+            </div>
+
+            <span
+              class="
+                button button--flex button--small button--link
+                services__button
+              "
+            >
+              View More
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <h4 class="services__modal-title">
+                  WordPress <br />
+                  Design
+                </h4>
+                <i class="uil uil-times services__modal-close"></i>
+
+                <ul class="services__modal-services grid">
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>For smaller budgets.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Static website, blog, ecommerce ... anything that can be done with the WordPress ecosystem.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">Most recent work</span>
+
+        <div class="portfolio__container container swiper-container">
+          <div class="swiper-wrapper">
+            <!--=============== PORTFOLIO 1 ===============-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/new-metal-releases-thumb.jpg"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">New Metal Releases</h3>
+                <p class="portfolio__description">
+                  Real live personal project. Stack: MongoDB Atlas, MongoDB Realm, NextJS ISR, rss-parser, hosted at Vercel
+                </p>
+                <a
+                  href="https://www.newmetalreleases.com/"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--=============== PORTFOLIO 2 ===============-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/marvel-thumb.jpg"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Marvel</h3>
+                <p class="portfolio__description">
+                  Technical test exercise. Stack: custom Express proxy server at Heroku and React frontend SPA at Netlify. Check the <a href="https://github.com/StartMeUp/marvel-backend">Backend code</a> and the <a href="https://github.com/StartMeUp/marvel-front-end">Frontend code</a>
+                </p>
+                <a
+                  href="https://marvel-smu.netlify.app/"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--=============== PORTFOLIO 3 ===============-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/bhumi-thumb.jpg"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Bhumi</h3>
+                <p class="portfolio__description">
+                  Ecommerce store. Stack: WordPress, Woocommerce, Stripe, Divi Theme Builder
+                </p>
+                <a
+                  href="https://www.bhumi.boutique/"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--=============== PORTFOLIO 4 ===============-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/todo-thumb.jpg"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Todo app</h3>
+                <p class="portfolio__description">
+                  Light project to showcase some of my skills and good practices as a coder. Stack: Typescript, Express, Overmind, Zod, MongoDB, Tailwind, React/ViteJS, Amazon SES. See the <a href="https://github.com/StartMeUp/todo-front">Frontend</a> and <a href="https://github.com/StartMeUp/todo-backend">Backend</a>
+                </p>
+                <a
+                  href="https://todo-front-smu.pages.dev/"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--=============== PORTFOLIO 5 ===============-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/tripadvisor-thumb.jpg"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Tripadvisor</h3>
+                <p class="portfolio__description">
+                  Copy of a Tripadvisor page. Pure custom HTMl and CSS, mobile-first design.
+                </p>
+                <a
+                  href="https://tripadvisor-clone-smu.netlify.app/"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in touch</span>
+
+        <div class="contact__container container grid">
+          <div>
+            <div class="contact__information">
+              <i class="uil uil-phone contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Call Me</h3>
+                <span class="contact__subtitle">+33 (0)6 65 57 40 13<br />Leave a message, I'm often busy</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-envelope contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Email</h3>
+                <span class="contact__subtitle">contact@start-me-up.fr</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-map-marker contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Location</h3>
+                <span class="contact__subtitle"
+                  >France - Boulogne / Mer</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <form action="https://formsubmit.co/1aa9969b833d2f7b1f092a6c868b0d5b" class="contact__form grid" method="POST">
+            <input type="hidden" name="_subject" value="Portfolio submission">
+            <input type="hidden" name="_autoresponse" value="Thanks for your Message, I'll be back to you soon !">
+            <input type="hidden" name="_next" value="https://startmeup.github.io/portfolio/">
+            <div class="contact__inputs grid">
+              <div class="contact__content">
+                <label for="" class="contact__label">Name</label>
+                <input type="text" class="contact__input" name="name" required />
+              </div>
+              <div class="contact__content">
+                <label for="" class="contact__label">Email</label>
+                <input type="email" class="contact__input" name="email" required />
+              </div>
+            </div>
+            <div class="contact__content">
+              <label for="" class="contact__label">Project</label>
+              <input type="text" class="contact__input" name="project" required />
+            </div>
+            <div class="contact__content">
+              <label for="" class="contact__label">Message</label>
+              <textarea
+                name="message"
+                id=""
+                cols="0"
+                rows="7"
+                class="contact__input"
+                required
+              ></textarea>
+            </div>
+
+            <div>
+              <button class="button button--flex button--submit" type="submit">
+                Send Message
+                <i class="uil uil-message button__icon"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Christophe<br />Leprêtre</h1>
+            <span class="footer__subtitle">Fullstack developer</span>
+          </div>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#services" class="footer__link">Services</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="footer__link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer__link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="footer__socials">
+            <a
+              href="https://github.com/StartMeUp?tab=repositories"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-github-alt"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/christophelepretre/"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrollup" id="scroll-top">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
